@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/adriloma/ng-book/compare/v0.0.2...v0.0.3) (2020-05-18)
+
+
+### Features
+
+* **angular-reddit:** implemented angular-reddit app ([d0a7477](https://github.com/adriloma/ng-book/commit/d0a7477c89c4d8165ae4a5414ce189b4186e7078))
+
 ### [0.0.2](https://github.com/adriloma/ng-book/compare/v0.0.1...v0.0.2) (2020-05-18)
 
 
