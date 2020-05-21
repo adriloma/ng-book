@@ -3,7 +3,9 @@
   "version": "0.0.3",
   "description": "Code developed during the lecture of ng-book by fullstack.io",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
