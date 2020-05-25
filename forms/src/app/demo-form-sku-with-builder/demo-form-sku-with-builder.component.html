@@ -1,0 +1,13 @@
+<div class="ui raised segment">
+  <h2 class="ui header">Demo Form: Sku</h2>
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)" class="ui form">
+    <div class="field" [class.error]="myForm.controls.sku.invalid && myForm.controls.sku.touched">
+      <label for="skuInput">SKU</label>
+      <input [formControl]="myForm.controls.sku">
+      <div *ngIf="myForm.controls.sku.invalid && myForm.controls.sku.touched" class="ui red message">
+        Sku is Required
+      </div>
+    </div>
+    <button type="submit" class="ui button">Submit</button>
+  </form>
+</div>
