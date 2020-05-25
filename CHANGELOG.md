@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/adriloma/ng-book/compare/v0.0.4...v0.0.5) (2020-05-25)
+
+
+### Features
+
+* **forms:** implemented template and reactive simple forms ([832b8e4](https://github.com/adriloma/ng-book/commit/832b8e45c411d19c659756f83319a3b50b01cfa1))
+
 ### [0.0.4](https://github.com/adriloma/ng-book/compare/v0.0.3...v0.0.4) (2020-05-21)
 
 
