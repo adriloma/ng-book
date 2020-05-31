@@ -29,6 +29,14 @@
             "scripts": []
           },
           "configurations": {
+              "local": {
+                "fileReplacements": [
+                    {
+                        "replace": "src/environments/environment.ts",
+                        "with": "src/environments/environment.local.ts"
+                    }
+                ]
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -67,7 +75,10 @@
           "configurations": {
             "production": {
               "browserTarget": "youtube-searchbox:build:production"
-            }
+            },
+            "local": {
+              "browserTarget": "youtube-searchbox:build:local"
+          }
           }
         },
         "extract-i18n": {

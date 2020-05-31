@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { SearchResult } from './searchResult.model';
 
 @Component({
   selector: 'app-root',
@@ -7,18 +8,13 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public data: object;
-  public loading: boolean;
-  constructor(private http: HttpClient) {
+  results: SearchResult[];
+  loading: boolean;
+  constructor() {
     this.loading = false;
   }
 
-  public makeRequest(): void {
-    this.loading = true;
-    this.http.get('https://jsonplaceholder.typicode.com/posts/1')
-    .subscribe(data => {
-      this.data = data;
-      this.loading = false;
-    });
+  updateResults(results: SearchResult[]): void {
+    this.results = results;
   }
 }

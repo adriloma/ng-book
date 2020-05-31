@@ -1,4 +1,15 @@
-<h2>Basic Request</h2>
-<button type='button' (click)='makeRequest()'>Make Request</button>
-<div *ngIf='loading'>Loading...</div>
-<pre>{{ data | json }}</pre>
+<div class="container">
+  <div class="page-header">
+    <h1>Youtube search
+      <img src="assets/images/loading.gif" *ngIf="loading" style="float: right">
+    </h1>
+  </div>
+  <div class="row">
+    <div class="input-group lg col-md-12">
+      <app-search-box (loading)="loading = $event" (results)="updateResults($event)"></app-search-box>
+    </div>
+  </div>
+  <div class="row">
+    <app-search-result *ngFor="let result of results" [result] ="result"></app-search-result>
+  </div>
+</div>
