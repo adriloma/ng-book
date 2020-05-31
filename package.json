@@ -13,6 +13,7 @@
     "standard-version": "^8.0.0"
   },
   "scripts": {
+    "start": "ng serve -c local",
     "release": "standard-version"
   },
   "husky": {
