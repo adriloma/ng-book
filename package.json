@@ -1,6 +1,6 @@
 {
   "name": "ng-book",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Code developed during the lecture of ng-book by fullstack.io",
   "main": "index.js",
   "dependencies": {

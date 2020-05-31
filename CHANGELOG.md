@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/adriloma/ng-book/compare/v0.0.5...v0.0.6) (2020-05-31)
+
+
+### Features
+
+* **youtube-searchbox:** implemented youtube searchbox component ([9e5abf7](https://github.com/adriloma/ng-book/commit/9e5abf7b27432506b55f548b27efb790877c0cfe))
+
 ### [0.0.5](https://github.com/adriloma/ng-book/compare/v0.0.4...v0.0.5) (2020-05-25)
 
 
